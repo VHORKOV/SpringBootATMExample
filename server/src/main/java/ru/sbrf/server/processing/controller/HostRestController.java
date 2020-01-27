@@ -45,12 +45,12 @@ public class HostRestController {
     @PostMapping("/hosts/{hostId}/clients/{clientId}")
     public Response getBalance(@PathVariable("hostId") Long hostId,
                                @PathVariable("clientId") Long clientId,
-                               @RequestBody Request formData) {
+                               @RequestBody Request request) {
         if (hostId != 1) {
             throw new RuntimeException("Host " + hostId + " is not ready!");
         }
 
-        log.info("Denis " + clientId);
+        log.info("Denis " + request.getData());
         return new Response(clientService.getClient(clientId).getAccountDTO().get(0).getBalance());
     }
 }
