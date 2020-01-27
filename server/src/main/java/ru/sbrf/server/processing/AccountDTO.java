@@ -5,7 +5,7 @@ import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
 @Getter
-public class Account {
+public class AccountDTO {
     private final int accountId;
     private final int balance;
 }

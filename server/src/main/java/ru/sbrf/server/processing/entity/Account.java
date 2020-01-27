@@ -1,12 +1,16 @@
 package ru.sbrf.server.processing.entity;
 
-import lombok.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "Accounts")
-@Data
+@NoArgsConstructor
+@Getter
+@Setter
 public class Account {
 
     @Id
