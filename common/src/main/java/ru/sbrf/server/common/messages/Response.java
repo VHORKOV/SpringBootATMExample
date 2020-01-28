@@ -1,8 +1,12 @@
 package ru.sbrf.server.common.messages;
 
-import lombok.Value;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 
-@Value
+@AllArgsConstructor
+@Getter
+@Setter
 public class Response {
     private int balance;
 }

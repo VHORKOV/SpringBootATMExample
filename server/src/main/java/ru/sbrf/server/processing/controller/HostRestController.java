@@ -50,7 +50,9 @@ public class HostRestController {
             throw new RuntimeException("Host " + hostId + " is not ready!");
         }
 
-        log.info("Denis " + request.getData());
-        return new Response(clientService.getClient(clientId).getAccountDTO().get(0).getBalance());
+        log.info(request.toString());
+        Response response = new Response(clientService.getClient(clientId).getAccountDTO().get(0).getBalance());
+        log.info(response.toString());
+        return response;
     }
 }
