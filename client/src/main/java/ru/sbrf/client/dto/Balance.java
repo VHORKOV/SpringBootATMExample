@@ -1,11 +1,10 @@
-package ru.sbrf.server.processing;
+package ru.sbrf.client.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
 @Getter
-public class AccountDTO {
-    private final int accountId;
+public class Balance {
     private final int balance;
 }

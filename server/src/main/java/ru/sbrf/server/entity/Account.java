@@ -1,4 +1,4 @@
-package ru.sbrf.server.processing.entity;
+package ru.sbrf.server.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

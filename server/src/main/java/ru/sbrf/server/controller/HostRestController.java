@@ -1,13 +1,13 @@
-package ru.sbrf.server.processing.controller;
+package ru.sbrf.server.controller;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.java.Log;
 import org.springframework.web.bind.annotation.*;
 import ru.sbrf.server.common.messages.Request;
 import ru.sbrf.server.common.messages.Response;
-import ru.sbrf.server.processing.ClientDTO;
-import ru.sbrf.server.processing.exception.HostNotFoundException;
-import ru.sbrf.server.processing.service.ClientService;
+import ru.sbrf.server.ClientDTO;
+import ru.sbrf.server.exception.HostNotFoundException;
+import ru.sbrf.server.service.ClientService;
 
 import java.util.List;
 

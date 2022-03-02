@@ -1,6 +1,7 @@
-package ru.sbrf.server.processing;
+package ru.sbrf.server;
 
 import lombok.Value;
+import ru.sbrf.server.AccountDTO;
 
 import java.util.List;
 

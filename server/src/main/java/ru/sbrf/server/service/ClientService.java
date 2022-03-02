@@ -1,13 +1,13 @@
-package ru.sbrf.server.processing.service;
+package ru.sbrf.server.service;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import ru.sbrf.server.processing.AccountDTO;
-import ru.sbrf.server.processing.ClientDTO;
-import ru.sbrf.server.processing.entity.Account;
-import ru.sbrf.server.processing.entity.Client;
-import ru.sbrf.server.processing.exception.ClientNotFoundException;
-import ru.sbrf.server.processing.repository.ClientCrudRepository;
+import ru.sbrf.server.AccountDTO;
+import ru.sbrf.server.ClientDTO;
+import ru.sbrf.server.entity.Account;
+import ru.sbrf.server.entity.Client;
+import ru.sbrf.server.exception.ClientNotFoundException;
+import ru.sbrf.server.repository.ClientCrudRepository;
 
 import java.util.ArrayList;
 import java.util.List;
